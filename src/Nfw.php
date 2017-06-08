@@ -45,7 +45,7 @@ class Nfw
     {
         $instance = $this->createInstance();
         
-        $controller = 'App\\' . str_replace(':', '\\', $instance['_controller']);
+        $controller = str_replace(':', '\\', $instance['_controller']);
         $controller = new $controller;
         $controller->setReflect((object) $instance); 
         $controller->init();
