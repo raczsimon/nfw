@@ -1,0 +1,16 @@
+{
+    "name": "raczsimon/nfw",
+    "description": "Naon lightweight framework",
+    "type": "library",
+    "license": "GPL General Public Licence v2 and later",
+    "authors": [
+        {
+            "name": "Simon Racz",
+            "email": "racz.simon@inovett.cz"
+        }
+    ],
+    "require": {
+        "symfony/routing": "^3.3",
+        "symfony/http-foundation": "^3.3"
+    }
+}
