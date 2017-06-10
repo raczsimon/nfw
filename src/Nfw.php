@@ -19,7 +19,6 @@ class Nfw
     private function addRoutes()
     {
         $routes = new RouteCollection();
-        var_dump($this->routes);
         
         foreach ($this->routes as $key => $route) {
             $routes->add($key, $route);
